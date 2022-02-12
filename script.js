@@ -11,7 +11,7 @@ let wind = document.getElementById("wind");
 let search = document.getElementById("search");
 
 let weather = {
-    apikey : "21d1773f11f7c6420ce70528c3dff888",
+    apikey : "ae1f0e165d6e4d64ba6b0d9dcb10ee05",
     fetchWeather : function(city) {
         fetch(
             "https://api.openweathermap.org/data/2.5/weather?q="
